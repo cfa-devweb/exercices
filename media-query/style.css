@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+
+#header {
+  background-color: #5f5f5f;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+#main {
+  min-height: calc(100vh - 180px);
+  max-width: 1024px;
+  margin: auto;
+}
+
+#nav {
+  background-color: #f1f1f1;
+  width: 150px;
+  float: left;
+}
+
+#nav {
+  padding: 10px 10px 0;
+}
+
+#nav > div {
+  background-color: white;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+#hero {
+  background-color: #f1f1f1;
+  width: calc(100% - 180px);
+  margin-left: 10px;
+  height: 170px;
+  float: left;
+}
+
+#section {
+  margin-bottom: 10px;
+  min-height: 100px;
+}
+
+#section::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#footer {
+  background-color: #5f5f5f;
+  height: 60px;
+}
+
+.grid-float::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-float {
+  width: calc((100% - 20px) / 3);
+  background-color: #f1f1f1;
+  margin-right: 10px;
+  height: 170px;
+  float: left;
+}
+
+.col-float:nth-child(n+3) {
+  margin-right: 0;
+}
+
+.grid-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.col-flex {
+  flex: 1;
+  height: 170px;
+  background-color: #f1f1f1;
+}
+
+.col-flex:nth-child(odd) {
+  margin-right: 10px;
+}
