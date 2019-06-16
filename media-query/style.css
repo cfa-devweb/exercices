@@ -87,3 +87,11 @@ body {
 .col-flex:nth-child(odd) {
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
