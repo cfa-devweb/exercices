@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Title</title>
+
+    <style>
+      .title {
+        text-align: center;
+      }
+      .myForm {
+        margin: auto;
+        width: 350px;
+      }
+      .myInputs {
+        display: block;
+        padding: 10px;
+        margin: 10px;
+        width: calc(100% - 44px);
+      }
+    </style>
+  </head>
+  <body>
+      <h1 class="title">My Title</h1>
+
+      <form id="myForm" class="myForm">
+
+        <!-- Prénom -->
+        <!-- Nom -->
+        <!-- Date de naissance -->
+        <!-- Numéro de téléphone -->
+        <!-- Mail -->
+        <!-- Password -->
+
+        <!-- button -->
+
+      </form>
+
+      <script type="text/javascript">
+        var myForm = document.getElementById('myForm');
+        myForm.onsubmit = function(event) {
+          event.preventDefault();
+          console.log(event.target);
+        };
+      </script>
+  </body>
+</html>
