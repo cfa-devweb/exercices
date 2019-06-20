@@ -1,0 +1,17 @@
+{
+  "name": "todo-react",
+  "version": "1.0.0",
+  "description": "ToDo list using react.",
+  "scripts": {
+    "start": "parcel index.html --hmr-port 1235"
+  },
+  "author": "Jonathan Delefortrie",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.21.0"
+  }
+}
