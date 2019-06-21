@@ -1,0 +1,14 @@
+{
+  "name": "calculator-jest",
+  "version": "1.0.0",
+  "description": "Calculator unit test using Jest.",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  }
+}
