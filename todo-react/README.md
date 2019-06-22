@@ -16,6 +16,6 @@ docker-compose run --service-ports app npm start
 ```
 
 ## Instructions
-Créez une ToDo list à l'aide de React, vous devez d'abord créer un formulaire pour enregistrer le titre et la description de la tâche à faire afin d'être afficher dans une liste modifiable.
+Créez une ToDo list à l'aide de React, créez un formulaire pour enregistrer le titre et la description des tâches. Après leur création, les tâches doivent être affichées dans une liste. Les tâches peuvent comporter plusieurs états modifiables.
 
-**Note:** Le code doit être correctement indenté à l'aide de plugin.
+**Note:** Le code doit être correctement indenté à l'aide de plugins. Le code doit être uniquement écrit en anglais.

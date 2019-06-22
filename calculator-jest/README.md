@@ -1,4 +1,4 @@
-## ToDo React
+## Calculator Jest
 
 ## Build the environment
 ```
@@ -16,6 +16,6 @@ docker-compose run app npm test
 ```
 
 ## Instructions
-Créez la suite de tests unitaires permettant de vérifier les calculs du fichier "index.js".
+Créez la suite de tests unitaires permettant de vérifier les calculs du fichier "calculator.js".
 
-**Note:** Le code doit être correctement indenté à l'aide de plugin. Le code ne peut être uniquement écrit en anglais.
+**Note:** Le code doit être correctement indenté à l'aide de plugins. Le code doit être uniquement écrit en anglais.
