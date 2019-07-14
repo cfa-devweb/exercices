@@ -13,7 +13,7 @@ docker-compose down
 ## Instructions
 1. Créer un blog à l'aide du CMS Wordpress. Installer, sécuriser, internationaliser et structurer votre site.
 
-2. Réaliser un thème sur mesure à partir des instructions suivante.
+2. Réaliser un thème sur mesure à partir des instructions suivantes.
   * Créer un nouveau dossier reflétant la structure suivante.
 ```
 - my-project
