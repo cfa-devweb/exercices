@@ -14,7 +14,7 @@ docker-compose down
 1. Créer un blog à l'aide du CMS Wordpress. Installer, sécuriser, internationaliser et structurer votre site.
 
 2. Réaliser un thème sur mesure à partir des instructions suivante.
-..* Créer un nouveau dossier reflétant la structure suivante.
+  * Créer un nouveau dossier reflétant la structure suivante.
 ```
 - my-project
  - docker-compose.yml
@@ -24,8 +24,7 @@ docker-compose down
     - index.php
     - style.css
 ```
-
-..* Copier le fichier docker-compose.yml et ajouter le code suivant à l'application "wordpress".
+  * Copier le fichier docker-compose.yml et ajouter le code suivant à l'application "wordpress".
 ```
 volumes:
   - ./wp-content:/var/www/html/wp-content
